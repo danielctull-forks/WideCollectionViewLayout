@@ -9,7 +9,7 @@ import UIKit
 class CustomLayout: UICollectionViewFlowLayout {
     
     
-    var numberOfItemsPerRow: Int = 3 {
+    var numberOfItemsPerRow: Int = 7 {
         didSet {
             invalidateLayout()
         }
