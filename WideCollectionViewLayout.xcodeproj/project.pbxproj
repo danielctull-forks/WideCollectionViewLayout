@@ -101,6 +101,7 @@
 		B54F97571A5E976F004CEF37 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Dative Studios";
 				TargetAttributes = {
@@ -289,6 +290,7 @@
 				B54F97801A5E976F004CEF37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
