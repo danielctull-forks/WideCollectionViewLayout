@@ -18,5 +18,12 @@ class ViewController: UICollectionViewController {
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         return collectionView.dequeueReusableCellWithReuseIdentifier("TEST", forIndexPath: indexPath) as UICollectionViewCell
     }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // Force an early layout at wider size than popover will wind up being
+        self.view.layoutIfNeeded()
+    }
 }
 
